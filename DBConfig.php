@@ -1,7 +1,7 @@
 <?php
 class DBConfig {
     const SERVERNAME = "localhost";
-    const DATABASE = "database_name";
+    const DATABASE = "databasename";
     const USERNAME = "username";
     const PASSWORD = "password";
     const FILESIZE = "";
