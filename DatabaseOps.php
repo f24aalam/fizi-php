@@ -1,5 +1,5 @@
 <?php
-include 'Conn.php';
+include_once 'Conn.php';
 class DatabaseOps {
     var $conn;
     function __construct($database = DBConfig::DATABASE) {
