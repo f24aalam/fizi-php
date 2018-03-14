@@ -1,5 +1,5 @@
 <?php
-include 'DBConfig.php';
+include_once 'DBConfig.php';
 class Conn{
    public function connectDB($database = DBConfig::DATABASE) {
         $conn = new mysqli(DBConfig::SERVERNAME,  DBConfig::USERNAME, DBConfig::PASSWORD,  $database);
